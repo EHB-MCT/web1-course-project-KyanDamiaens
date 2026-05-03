@@ -3,10 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
 <title>Portfolio | Ervaring</title>
 <meta name="description" content="Overzicht van ervaring en opleidingen.">
-
 <link rel="stylesheet" href="../css/style.css">
 <script defer src="../js/script.js"></script>
 </head>
@@ -17,11 +15,16 @@
 <nav class="navbar">
 <h1 class="logo">Portfolio</h1>
 
-<button class="menu-toggle" id="menu-toggle">☰</button>
+     <div id="nav-icon3">
+  <span></span>
+  <span></span>
+  <span></span>
+  <span></span>
+</div>
 
 <ul class="nav-links" id="nav-links">
 <li><a href="../index.html">Home</a></li>
-<li><a href="ervaring.html">Ervaring</a></li>
+<li><a href="ervaringen.html">Ervaring</a></li>
 <li><a href="vaardigheden.html">Vaardigheden</a></li>
 </ul>
 </nav>
@@ -30,14 +33,45 @@
 <main class="page">
 <h2>Ervaring</h2>
 
-<div class="grid">
-<div class="box">Student in webdevelopment</div>
-<div class="box">Ervaring met HTML en CSS</div>
-<div class="box">Samenwerken in groepsprojecten</div>
-<div class="box">Creatieve opdrachten uitgewerkt</div>
+<div class="experience-grid">
+    <article class="experience-card">
+        <h3>Webdevelopment studies</h3>
+        <p>Leerprojecten met HTML, CSS en Javascript binnen schoolopdrachten.</p>
+    </article>
+    <article class="experience-card">
+        <h3>Design & layout</h3>
+        <p>Posters en verhalen gemaakt met Photoshop en Illustrator</p>
+    </article>
+    <article class="experience-card">
+        <h3>Teamwork</h3>
+        <p>Ervaring met samenwerken, feedback verwerken en gezamenlijke opleveringen.</p>
+    </article>
+    <article class="experience-card">
+        <h3>Presentatie</h3>
+        <p>Projecten gepresenteerd op profesionele manier voor een grote groep.</p>
+    </article>
 </div>
 
+<section class="photo-gallery">
+    <h3>Projectfoto's</h3>
+    <div class="photo-grid">
+        <div class="photo-frame photo-vertical">
+            <img src="../assets/ai.png" alt="illustrator vb" class="photo">
+        </div>
+        <div class="photo-frame">
+            <img src="../assets/premiere.png" alt="premiere pro vb" class="photo">
+        </div>
+        <div class="photo-frame">
+            <img src="../assets/after effcts.png" alt="after effcts vb" class="photo">
+        </div>
+    </div>
+</section>
+
 </main>
+
+<footer>
+    <p>&copy; 2026 Portfolio Kyan Damiaens</p>
+</footer>
 
 </body>
 </html>
